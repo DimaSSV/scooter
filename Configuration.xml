@@ -75,7 +75,7 @@
 			<CommonModule>скт_ПроизвольныеАлгоритмыСервер</CommonModule>
 			<CommonModule>скт_ПроцедурыHTTP</CommonModule>
 			<CommonModule>скт_ОбщегоНазначенияКлиентСервер</CommonModule>
-			<CommonModule>скт_ОбщийМодуль1</CommonModule>
+			<CommonModule>скт_РаботаСКонстантами</CommonModule>
 			<HTTPService>скт_Scooter</HTTPService>
 			<Constant>скт_АдресПубликацииБазы</Constant>
 			<CommonForm>скт_ФормаВыбораНаСервере</CommonForm>
