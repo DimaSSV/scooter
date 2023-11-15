@@ -1,0 +1,1099 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Popup name="ПодменюСКД" id="183">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>СКД</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>СКД</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>StdPicture.DataCompositionSettingsWizard</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ПодменюСКДРасширеннаяПодсказка" id="184"/>
+				<ChildItems>
+					<ButtonGroup name="ГруппаСКД" id="189">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа СКД</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа СКД</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ГруппаСКДРасширеннаяПодсказка" id="190"/>
+						<ChildItems>
+							<Button name="ФормаКомандаЗагрузитьСхему" id="185">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.КомандаЗагрузитьСхему</CommandName>
+								<Picture>
+									<xr:Ref>StdPicture.OpenFile</xr:Ref>
+									<xr:LoadTransparent>true</xr:LoadTransparent>
+								</Picture>
+								<ExtendedTooltip name="ФормаКомандаЗагрузитьСхемуРасширеннаяПодсказка" id="186"/>
+							</Button>
+							<Button name="ФормаКомандаВыгрузитьСхему" id="187">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.КомандаВыгрузитьСхему</CommandName>
+								<Picture>
+									<xr:Ref>StdPicture.Write</xr:Ref>
+									<xr:LoadTransparent>true</xr:LoadTransparent>
+								</Picture>
+								<ExtendedTooltip name="ФормаКомандаВыгрузитьСхемуРасширеннаяПодсказка" id="188"/>
+							</Button>
+						</ChildItems>
+					</ButtonGroup>
+					<ButtonGroup name="ГруппаНастройкиСКД" id="191">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа настройки СКД</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа настройки СКД</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ГруппаНастройкиСКДРасширеннаяПодсказка" id="192"/>
+						<ChildItems>
+							<Button name="ФормаКомандаЗагрузитьНастройки" id="193">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.КомандаЗагрузитьНастройки</CommandName>
+								<Picture>
+									<xr:Ref>StdPicture.OpenFile</xr:Ref>
+									<xr:LoadTransparent>true</xr:LoadTransparent>
+								</Picture>
+								<ExtendedTooltip name="ФормаКомандаЗагрузитьНастройкиРасширеннаяПодсказка" id="194"/>
+							</Button>
+							<Button name="ФормаКомандаВыгрузитьНастройки" id="195">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.КомандаВыгрузитьНастройки</CommandName>
+								<Picture>
+									<xr:Ref>StdPicture.Write</xr:Ref>
+									<xr:LoadTransparent>true</xr:LoadTransparent>
+								</Picture>
+								<ExtendedTooltip name="ФормаКомандаВыгрузитьНастройкиРасширеннаяПодсказка" id="196"/>
+							</Button>
+						</ChildItems>
+					</ButtonGroup>
+				</ChildItems>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="ChoiceProcessing">ОбработкаВыбора</Event>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Шапка1" id="177">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка1</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка1</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Шапка1РасширеннаяПодсказка" id="178"/>
+			<ChildItems>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Шапка2" id="179">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка2</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка2</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Шапка2РасширеннаяПодсказка" id="180"/>
+			<ChildItems>
+				<Button name="РедактироватьСКД" id="7">
+					<Type>Hyperlink</Type>
+					<CommandName>Form.Command.РедактироватьСКД</CommandName>
+					<ExtendedTooltip name="РедактироватьСКДРасширеннаяПодсказка" id="8"/>
+				</Button>
+				<Button name="РедактироватьСоставПользовательскихНастроек" id="181">
+					<Type>Hyperlink</Type>
+					<CommandName>Form.Command.РедактироватьСоставПользовательскихНастроек</CommandName>
+					<ExtendedTooltip name="РедактироватьСоставПользовательскихНастроекРасширеннаяПодсказка" id="182"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Страницы" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="10"/>
+			<ChildItems>
+				<Page name="СтраницаЗапрос" id="11">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Запрос</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Запрос</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture>
+						<xr:Ref>StdPicture.ShowInList</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="СтраницаЗапросРасширеннаяПодсказка" id="12"/>
+					<ChildItems>
+						<CommandBar name="ПанельЗапроса" id="16">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Панель запроса</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Панель запроса</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ПанельЗапросаРасширеннаяПодсказка" id="17"/>
+							<ChildItems>
+								<ButtonGroup name="КнопкиЗапрос" id="28">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Кнопки запрос</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Кнопки запрос</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Representation>Compact</Representation>
+									<ExtendedTooltip name="КнопкиЗапросРасширеннаяПодсказка" id="29"/>
+									<ChildItems>
+										<Button name="КонструкторЗапроса" id="18">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.КонструкторЗапроса</CommandName>
+											<ExtendedTooltip name="КонструкторЗапросаРасширеннаяПодсказка" id="19"/>
+										</Button>
+										<Button name="Форматировать" id="20">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.Форматировать</CommandName>
+											<ExtendedTooltip name="ФорматироватьРасширеннаяПодсказка" id="21"/>
+										</Button>
+									</ChildItems>
+								</ButtonGroup>
+								<ButtonGroup name="Комменты" id="26">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Комменты</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Комменты</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Representation>Compact</Representation>
+									<ExtendedTooltip name="КомментыРасширеннаяПодсказка" id="27"/>
+									<ChildItems>
+										<Button name="ДобавитьКомментарий" id="22">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.ДобавитьКомментарий</CommandName>
+											<ExtendedTooltip name="ДобавитьКомментарийРасширеннаяПодсказка" id="23"/>
+										</Button>
+										<Button name="УдалитьКомментарий" id="24">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.УдалитьКомментарий</CommandName>
+											<ExtendedTooltip name="УдалитьКомментарийРасширеннаяПодсказка" id="25"/>
+										</Button>
+									</ChildItems>
+								</ButtonGroup>
+							</ChildItems>
+						</CommandBar>
+						<TextDocumentField name="ТекстЗапроса" id="13">
+							<DataPath>ТекстЗапроса</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ContextMenu name="ТекстЗапросаКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ТекстЗапросаРасширеннаяПодсказка" id="15"/>
+							<Events>
+								<Event name="OnChange">ТекстЗапросаПриИзменении</Event>
+							</Events>
+						</TextDocumentField>
+						<LabelField name="ОшибкаЗапроса" id="30">
+							<DataPath>ОшибкаЗапроса</DataPath>
+							<Visible>false</Visible>
+							<TitleLocation>None</TitleLocation>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<Hiperlink>true</Hiperlink>
+							<Border width="1">
+								<v8ui:style xsi:type="v8ui:ControlBorderType">Single</v8ui:style>
+							</Border>
+							<BorderColor>style:SpecialTextColor</BorderColor>
+							<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+							<ContextMenu name="ОшибкаЗапросаКонтекстноеМеню" id="31"/>
+							<ExtendedTooltip name="ОшибкаЗапросаРасширеннаяПодсказка" id="32"/>
+							<Events>
+								<Event name="Click">ОшибкаЗапросаНажатие</Event>
+							</Events>
+						</LabelField>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаПараметры" id="33">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Параметры</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Параметры</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture>
+						<xr:Ref>StdPicture.DataCompositionDataParameters</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="СтраницаПараметрыРасширеннаяПодсказка" id="34"/>
+					<ChildItems>
+						<Table name="КомпоновщикНастройкиПараметрыДанных" id="35">
+							<Representation>Tree</Representation>
+							<Autofill>true</Autofill>
+							<Width>50</Width>
+							<InitialTreeView>ExpandAllLevels</InitialTreeView>
+							<DataPath>Компоновщик.Settings.DataParameters</DataPath>
+							<ContextMenu name="КомпоновщикНастройкиПараметрыДанныхКонтекстноеМеню" id="36"/>
+							<AutoCommandBar name="КомпоновщикНастройкиПараметрыДанныхКоманднаяПанель" id="37"/>
+							<ExtendedTooltip name="КомпоновщикНастройкиПараметрыДанныхРасширеннаяПодсказка" id="38"/>
+							<SearchStringAddition name="КомпоновщикНастройкиПараметрыДанныхСтрокаПоиска" id="39">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиПараметрыДанных</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиПараметрыДанныхСтрокаПоискаКонтекстноеМеню" id="40"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиПараметрыДанныхСтрокаПоискаРасширеннаяПодсказка" id="41"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КомпоновщикНастройкиПараметрыДанныхСостояниеПросмотра" id="42">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиПараметрыДанных</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиПараметрыДанныхСостояниеПросмотраКонтекстноеМеню" id="43"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиПараметрыДанныхСостояниеПросмотраРасширеннаяПодсказка" id="44"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КомпоновщикНастройкиПараметрыДанныхУправлениеПоиском" id="45">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиПараметрыДанных</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиПараметрыДанныхУправлениеПоискомКонтекстноеМеню" id="46"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиПараметрыДанныхУправлениеПоискомРасширеннаяПодсказка" id="47"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="OnChange">КомпоновщикПриИзменении</Event>
+							</Events>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаПоля" id="149">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поля</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поля</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture>
+						<xr:Ref>StdPicture.DataCompositionSelection</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="СтраницаПоляРасширеннаяПодсказка" id="150"/>
+					<ChildItems>
+						<Table name="КомпоновщикНастройкиВыборДоступныеПоляВыбора" id="151">
+							<Representation>Tree</Representation>
+							<Autofill>true</Autofill>
+							<Width>30</Width>
+							<ChoiceMode>true</ChoiceMode>
+							<HorizontalLines>false</HorizontalLines>
+							<VerticalLines>false</VerticalLines>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Компоновщик.Settings.Selection.SelectionAvailableFields</DataPath>
+							<ContextMenu name="КомпоновщикНастройкиВыборДоступныеПоляВыбораКонтекстноеМеню" id="152"/>
+							<AutoCommandBar name="КомпоновщикНастройкиВыборДоступныеПоляВыбораКоманднаяПанель" id="153"/>
+							<ExtendedTooltip name="КомпоновщикНастройкиВыборДоступныеПоляВыбораРасширеннаяПодсказка" id="154"/>
+							<SearchStringAddition name="КомпоновщикНастройкиВыборДоступныеПоляВыбораСтрокаПоиска" id="155">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиВыборДоступныеПоляВыбора</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиВыборДоступныеПоляВыбораСтрокаПоискаКонтекстноеМеню" id="156"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиВыборДоступныеПоляВыбораСтрокаПоискаРасширеннаяПодсказка" id="157"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КомпоновщикНастройкиВыборДоступныеПоляВыбораСостояниеПросмотра" id="158">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиВыборДоступныеПоляВыбора</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиВыборДоступныеПоляВыбораСостояниеПросмотраКонтекстноеМеню" id="159"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиВыборДоступныеПоляВыбораСостояниеПросмотраРасширеннаяПодсказка" id="160"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КомпоновщикНастройкиВыборДоступныеПоляВыбораУправлениеПоиском" id="161">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиВыборДоступныеПоляВыбора</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиВыборДоступныеПоляВыбораУправлениеПоискомКонтекстноеМеню" id="162"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиВыборДоступныеПоляВыбораУправлениеПоискомРасширеннаяПодсказка" id="163"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">КомпоновщикВыбор</Event>
+							</Events>
+						</Table>
+						<Table name="КомпоновщикНастройкиВыбор" id="164">
+							<Representation>Tree</Representation>
+							<Autofill>true</Autofill>
+							<Width>60</Width>
+							<InitialTreeView>ExpandAllLevels</InitialTreeView>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Компоновщик.Settings.Selection</DataPath>
+							<ContextMenu name="КомпоновщикНастройкиВыборКонтекстноеМеню" id="165"/>
+							<AutoCommandBar name="КомпоновщикНастройкиВыборКоманднаяПанель" id="166"/>
+							<ExtendedTooltip name="КомпоновщикНастройкиВыборРасширеннаяПодсказка" id="167"/>
+							<SearchStringAddition name="КомпоновщикНастройкиВыборСтрокаПоиска" id="168">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиВыбор</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиВыборСтрокаПоискаКонтекстноеМеню" id="169"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиВыборСтрокаПоискаРасширеннаяПодсказка" id="170"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КомпоновщикНастройкиВыборСостояниеПросмотра" id="171">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиВыбор</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиВыборСостояниеПросмотраКонтекстноеМеню" id="172"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиВыборСостояниеПросмотраРасширеннаяПодсказка" id="173"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КомпоновщикНастройкиВыборУправлениеПоиском" id="174">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиВыбор</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиВыборУправлениеПоискомКонтекстноеМеню" id="175"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиВыборУправлениеПоискомРасширеннаяПодсказка" id="176"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Drag">КомпоновщикПеретаскивание</Event>
+								<Event name="OnChange">КомпоновщикПриИзменении</Event>
+							</Events>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаОтбор" id="121">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отбор</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отбор</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture>
+						<xr:Ref>StdPicture.DataCompositionFilter</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="СтраницаОтборРасширеннаяПодсказка" id="122"/>
+					<ChildItems>
+						<Table name="КомпоновщикНастройкиОтборДоступныеПоляОтбора" id="123">
+							<Representation>Tree</Representation>
+							<Autofill>true</Autofill>
+							<Width>30</Width>
+							<ChoiceMode>true</ChoiceMode>
+							<HorizontalLines>false</HorizontalLines>
+							<VerticalLines>false</VerticalLines>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Компоновщик.Settings.Filter.FilterAvailableFields</DataPath>
+							<ContextMenu name="КомпоновщикНастройкиОтборДоступныеПоляОтбораКонтекстноеМеню" id="124"/>
+							<AutoCommandBar name="КомпоновщикНастройкиОтборДоступныеПоляОтбораКоманднаяПанель" id="125"/>
+							<ExtendedTooltip name="КомпоновщикНастройкиОтборДоступныеПоляОтбораРасширеннаяПодсказка" id="126"/>
+							<SearchStringAddition name="КомпоновщикНастройкиОтборДоступныеПоляОтбораСтрокаПоиска" id="127">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиОтборДоступныеПоляОтбора</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиОтборДоступныеПоляОтбораСтрокаПоискаКонтекстноеМеню" id="128"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиОтборДоступныеПоляОтбораСтрокаПоискаРасширеннаяПодсказка" id="129"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КомпоновщикНастройкиОтборДоступныеПоляОтбораСостояниеПросмотра" id="130">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиОтборДоступныеПоляОтбора</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиОтборДоступныеПоляОтбораСостояниеПросмотраКонтекстноеМеню" id="131"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиОтборДоступныеПоляОтбораСостояниеПросмотраРасширеннаяПодсказка" id="132"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КомпоновщикНастройкиОтборДоступныеПоляОтбораУправлениеПоиском" id="133">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиОтборДоступныеПоляОтбора</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиОтборДоступныеПоляОтбораУправлениеПоискомКонтекстноеМеню" id="134"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиОтборДоступныеПоляОтбораУправлениеПоискомРасширеннаяПодсказка" id="135"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">КомпоновщикВыбор</Event>
+							</Events>
+						</Table>
+						<Table name="КомпоновщикНастройкиОтбор" id="136">
+							<Representation>Tree</Representation>
+							<Autofill>true</Autofill>
+							<Width>60</Width>
+							<InitialTreeView>ExpandAllLevels</InitialTreeView>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Компоновщик.Settings.Filter</DataPath>
+							<ViewMode>All</ViewMode>
+							<SettingsNamedItemDetailedRepresentation>false</SettingsNamedItemDetailedRepresentation>
+							<ContextMenu name="КомпоновщикНастройкиОтборКонтекстноеМеню" id="137"/>
+							<AutoCommandBar name="КомпоновщикНастройкиОтборКоманднаяПанель" id="138"/>
+							<ExtendedTooltip name="КомпоновщикНастройкиОтборРасширеннаяПодсказка" id="139"/>
+							<SearchStringAddition name="КомпоновщикНастройкиОтборСтрокаПоиска" id="140">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиОтбор</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиОтборСтрокаПоискаКонтекстноеМеню" id="141"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиОтборСтрокаПоискаРасширеннаяПодсказка" id="142"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КомпоновщикНастройкиОтборСостояниеПросмотра" id="143">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиОтбор</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиОтборСостояниеПросмотраКонтекстноеМеню" id="144"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиОтборСостояниеПросмотраРасширеннаяПодсказка" id="145"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КомпоновщикНастройкиОтборУправлениеПоиском" id="146">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиОтбор</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиОтборУправлениеПоискомКонтекстноеМеню" id="147"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиОтборУправлениеПоискомРасширеннаяПодсказка" id="148"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Drag">КомпоновщикПеретаскивание</Event>
+								<Event name="OnChange">КомпоновщикПриИзменении</Event>
+							</Events>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаСортировка" id="93">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сортировка</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сортировка</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture>
+						<xr:Ref>StdPicture.DataCompositionOrder</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="СтраницаСортировкаРасширеннаяПодсказка" id="94"/>
+					<ChildItems>
+						<Table name="КомпоновщикНастройкиПорядокДоступныеПоляПорядка" id="95">
+							<Representation>Tree</Representation>
+							<Autofill>true</Autofill>
+							<Width>30</Width>
+							<ChoiceMode>true</ChoiceMode>
+							<HorizontalLines>false</HorizontalLines>
+							<VerticalLines>false</VerticalLines>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Компоновщик.Settings.Order.OrderAvailableFields</DataPath>
+							<ContextMenu name="КомпоновщикНастройкиПорядокДоступныеПоляПорядкаКонтекстноеМеню" id="96"/>
+							<AutoCommandBar name="КомпоновщикНастройкиПорядокДоступныеПоляПорядкаКоманднаяПанель" id="97"/>
+							<ExtendedTooltip name="КомпоновщикНастройкиПорядокДоступныеПоляПорядкаРасширеннаяПодсказка" id="98"/>
+							<SearchStringAddition name="КомпоновщикНастройкиПорядокДоступныеПоляПорядкаСтрокаПоиска" id="99">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиПорядокДоступныеПоляПорядка</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиПорядокДоступныеПоляПорядкаСтрокаПоискаКонтекстноеМеню" id="100"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиПорядокДоступныеПоляПорядкаСтрокаПоискаРасширеннаяПодсказка" id="101"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КомпоновщикНастройкиПорядокДоступныеПоляПорядкаСостояниеПросмотра" id="102">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиПорядокДоступныеПоляПорядка</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиПорядокДоступныеПоляПорядкаСостояниеПросмотраКонтекстноеМеню" id="103"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиПорядокДоступныеПоляПорядкаСостояниеПросмотраРасширеннаяПодсказка" id="104"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КомпоновщикНастройкиПорядокДоступныеПоляПорядкаУправлениеПоиском" id="105">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиПорядокДоступныеПоляПорядка</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиПорядокДоступныеПоляПорядкаУправлениеПоискомКонтекстноеМеню" id="106"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиПорядокДоступныеПоляПорядкаУправлениеПоискомРасширеннаяПодсказка" id="107"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">КомпоновщикВыбор</Event>
+							</Events>
+						</Table>
+						<Table name="КомпоновщикНастройкиПорядок" id="108">
+							<Representation>List</Representation>
+							<Autofill>true</Autofill>
+							<Width>60</Width>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Компоновщик.Settings.Order</DataPath>
+							<ContextMenu name="КомпоновщикНастройкиПорядокКонтекстноеМеню" id="109"/>
+							<AutoCommandBar name="КомпоновщикНастройкиПорядокКоманднаяПанель" id="110"/>
+							<ExtendedTooltip name="КомпоновщикНастройкиПорядокРасширеннаяПодсказка" id="111"/>
+							<SearchStringAddition name="КомпоновщикНастройкиПорядокСтрокаПоиска" id="112">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиПорядок</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиПорядокСтрокаПоискаКонтекстноеМеню" id="113"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиПорядокСтрокаПоискаРасширеннаяПодсказка" id="114"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КомпоновщикНастройкиПорядокСостояниеПросмотра" id="115">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиПорядок</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиПорядокСостояниеПросмотраКонтекстноеМеню" id="116"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиПорядокСостояниеПросмотраРасширеннаяПодсказка" id="117"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КомпоновщикНастройкиПорядокУправлениеПоиском" id="118">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиПорядок</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиПорядокУправлениеПоискомКонтекстноеМеню" id="119"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиПорядокУправлениеПоискомРасширеннаяПодсказка" id="120"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Drag">КомпоновщикПеретаскивание</Event>
+								<Event name="OnChange">КомпоновщикПриИзменении</Event>
+							</Events>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаУсловноеОформление" id="78">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Условное оформление</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Условное оформление</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture>
+						<xr:Ref>StdPicture.DataCompositionConditionalAppearance</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="СтраницаУсловноеОформлениеРасширеннаяПодсказка" id="79"/>
+					<ChildItems>
+						<Table name="КомпоновщикНастройкиУсловноеОформление" id="80">
+							<Representation>List</Representation>
+							<Autofill>true</Autofill>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Компоновщик.Settings.ConditionalAppearance</DataPath>
+							<SettingsNamedItemDetailedRepresentation>false</SettingsNamedItemDetailedRepresentation>
+							<ContextMenu name="КомпоновщикНастройкиУсловноеОформлениеКонтекстноеМеню" id="81"/>
+							<AutoCommandBar name="КомпоновщикНастройкиУсловноеОформлениеКоманднаяПанель" id="82"/>
+							<ExtendedTooltip name="КомпоновщикНастройкиУсловноеОформлениеРасширеннаяПодсказка" id="83"/>
+							<SearchStringAddition name="КомпоновщикНастройкиУсловноеОформлениеСтрокаПоиска" id="84">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиУсловноеОформление</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиУсловноеОформлениеСтрокаПоискаКонтекстноеМеню" id="85"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиУсловноеОформлениеСтрокаПоискаРасширеннаяПодсказка" id="86"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КомпоновщикНастройкиУсловноеОформлениеСостояниеПросмотра" id="87">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиУсловноеОформление</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиУсловноеОформлениеСостояниеПросмотраКонтекстноеМеню" id="88"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиУсловноеОформлениеСостояниеПросмотраРасширеннаяПодсказка" id="89"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КомпоновщикНастройкиУсловноеОформлениеУправлениеПоиском" id="90">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиУсловноеОформление</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиУсловноеОформлениеУправлениеПоискомКонтекстноеМеню" id="91"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиУсловноеОформлениеУправлениеПоискомРасширеннаяПодсказка" id="92"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="OnChange">КомпоновщикПриИзменении</Event>
+							</Events>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаПользовательскиПоля" id="63">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользовательски поля</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользовательски поля</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture>
+						<xr:Ref>StdPicture.DataCompositionUserFields</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="СтраницаПользовательскиПоляРасширеннаяПодсказка" id="64"/>
+					<ChildItems>
+						<Table name="КомпоновщикНастройкиПользовательскиеПоля" id="65">
+							<Representation>List</Representation>
+							<Autofill>true</Autofill>
+							<Width>60</Width>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Компоновщик.Settings.UserFields</DataPath>
+							<ContextMenu name="КомпоновщикНастройкиПользовательскиеПоляКонтекстноеМеню" id="66"/>
+							<AutoCommandBar name="КомпоновщикНастройкиПользовательскиеПоляКоманднаяПанель" id="67"/>
+							<ExtendedTooltip name="КомпоновщикНастройкиПользовательскиеПоляРасширеннаяПодсказка" id="68"/>
+							<SearchStringAddition name="КомпоновщикНастройкиПользовательскиеПоляСтрокаПоиска" id="69">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиПользовательскиеПоля</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиПользовательскиеПоляСтрокаПоискаКонтекстноеМеню" id="70"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиПользовательскиеПоляСтрокаПоискаРасширеннаяПодсказка" id="71"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КомпоновщикНастройкиПользовательскиеПоляСостояниеПросмотра" id="72">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиПользовательскиеПоля</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиПользовательскиеПоляСостояниеПросмотраКонтекстноеМеню" id="73"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиПользовательскиеПоляСостояниеПросмотраРасширеннаяПодсказка" id="74"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КомпоновщикНастройкиПользовательскиеПоляУправлениеПоиском" id="75">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиПользовательскиеПоля</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиПользовательскиеПоляУправлениеПоискомКонтекстноеМеню" id="76"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиПользовательскиеПоляУправлениеПоискомРасширеннаяПодсказка" id="77"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="OnChange">КомпоновщикПриИзменении</Event>
+							</Events>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаДругиеНастройки" id="48">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Другие настройки</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Другие настройки</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture>
+						<xr:Ref>StdPicture.DataCompositionOutputParameters</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="СтраницаДругиеНастройкиРасширеннаяПодсказка" id="49"/>
+					<ChildItems>
+						<Table name="КомпоновщикНастройкиПараметрыВывода" id="50">
+							<Representation>Tree</Representation>
+							<Autofill>true</Autofill>
+							<Width>50</Width>
+							<InitialTreeView>ExpandAllLevels</InitialTreeView>
+							<DataPath>Компоновщик.Settings.OutputParameters</DataPath>
+							<ContextMenu name="КомпоновщикНастройкиПараметрыВыводаКонтекстноеМеню" id="51"/>
+							<AutoCommandBar name="КомпоновщикНастройкиПараметрыВыводаКоманднаяПанель" id="52"/>
+							<ExtendedTooltip name="КомпоновщикНастройкиПараметрыВыводаРасширеннаяПодсказка" id="53"/>
+							<SearchStringAddition name="КомпоновщикНастройкиПараметрыВыводаСтрокаПоиска" id="54">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиПараметрыВывода</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиПараметрыВыводаСтрокаПоискаКонтекстноеМеню" id="55"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиПараметрыВыводаСтрокаПоискаРасширеннаяПодсказка" id="56"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КомпоновщикНастройкиПараметрыВыводаСостояниеПросмотра" id="57">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиПараметрыВывода</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиПараметрыВыводаСостояниеПросмотраКонтекстноеМеню" id="58"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиПараметрыВыводаСостояниеПросмотраРасширеннаяПодсказка" id="59"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КомпоновщикНастройкиПараметрыВыводаУправлениеПоиском" id="60">
+								<AdditionSource>
+									<Item>КомпоновщикНастройкиПараметрыВывода</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КомпоновщикНастройкиПараметрыВыводаУправлениеПоискомКонтекстноеМеню" id="61"/>
+								<ExtendedTooltip name="КомпоновщикНастройкиПараметрыВыводаУправлениеПоискомРасширеннаяПодсказка" id="62"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="OnChange">КомпоновщикПриИзменении</Event>
+							</Events>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.скт_Источники</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="АдресСхемы" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес схемы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Компоновщик" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Компоновщик</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>dcsset:SettingsComposer</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ТекстЗапроса" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст запроса</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ОшибкаЗапроса" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибка запроса</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="РедактироватьСКД" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Редактировать СКД</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Редактировать СКД</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>РедактироватьСКД</Action>
+		</Command>
+		<Command name="Форматировать" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Форматировать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Форматировать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>Alt+Shift+F</Shortcut>
+			<Picture>
+				<xr:Ref>StdPicture.ExternalDataSourceFunction</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Форматировать</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="УдалитьКомментарий" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Убрать комментарий</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить комментарий</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>Ctrl+Shift+Num /</Shortcut>
+			<Picture>
+				<xr:Ref>CommonPicture.скт_УдалитьКомментарий</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>УдалитьКомментарий</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="КонструкторЗапроса" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Конструктор запроса</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Конструктор запроса</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.QueryWizard</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>КонструкторЗапроса</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="ДобавитьКомментарий" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закомментировать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить комментарий</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>Ctrl+Num /</Shortcut>
+			<Picture>
+				<xr:Ref>CommonPicture.скт_ДобавитьКомментарий</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ДобавитьКомментарий</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="КомандаЗагрузитьСхему" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить схему</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить схему</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаЗагрузитьСхему</Action>
+		</Command>
+		<Command name="РедактироватьСоставПользовательскихНастроек" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Редактировать состав пользовательских настроек</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Редактировать состав пользовательских настроек</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>РедактироватьСоставПользовательскихНастроек</Action>
+		</Command>
+		<Command name="КомандаВыгрузитьСхему" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить схему</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить схему</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаВыгрузитьСхему</Action>
+		</Command>
+		<Command name="КомандаВыгрузитьНастройки" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить Настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаВыгрузитьНастройки</Action>
+		</Command>
+		<Command name="КомандаЗагрузитьНастройки" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаЗагрузитьНастройки</Action>
+		</Command>
+	</Commands>
+</Form>
