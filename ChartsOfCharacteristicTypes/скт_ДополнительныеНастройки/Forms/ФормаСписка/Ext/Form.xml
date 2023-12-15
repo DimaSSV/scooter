@@ -71,7 +71,7 @@
 			</SearchControlAddition>
 			<ChildItems>
 				<LabelField name="Ссылка" id="16">
-					<DataPath>Список.Ссылка</DataPath>
+					<DataPath>Список.Ref</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
@@ -79,10 +79,10 @@
 					<ContextMenu name="СсылкаКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="18"/>
 				</LabelField>
-				<LabelField name="Код" id="25">
-					<DataPath>Список.Код</DataPath>
-					<ContextMenu name="КодКонтекстноеМеню" id="26"/>
-					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="27"/>
+				<LabelField name="Наименование" id="25">
+					<DataPath>Список.Description</DataPath>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="27"/>
 				</LabelField>
 				<LabelField name="Значение" id="22">
 					<DataPath>Список.Значение</DataPath>
@@ -102,10 +102,8 @@
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
-	ПланВидовХарактеристикдс2_ДополнительныеНастройки.Ссылка КАК Ссылка,
-	ПланВидовХарактеристикдс2_ДополнительныеНастройки.Код КАК Код,
-	скт_ЗначенияДополнительныхНастроек.Значение КАК Значение,
-	ПланВидовХарактеристикдс2_ДополнительныеНастройки.РежимПароля КАК РежимПароля
+	ПланВидовХарактеристикдс2_ДополнительныеНастройки.*,
+	скт_ЗначенияДополнительныхНастроек.Значение КАК Значение
 ИЗ
 	ПланВидовХарактеристик.скт_ДополнительныеНастройки КАК ПланВидовХарактеристикдс2_ДополнительныеНастройки
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.скт_ЗначенияДополнительныхНастроек КАК скт_ЗначенияДополнительныхНастроек
@@ -138,6 +136,26 @@
 								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 									<dcscor:parameter>Текст</dcscor:parameter>
 									<dcscor:value xsi:type="xs:string">*******</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection>
+								<dcsset:item>
+									<dcsset:field>Значение</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">Ссылка.ЭтоГруппа</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Видимость</dcscor:parameter>
+									<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
 								</dcscor:item>
 							</dcsset:appearance>
 						</dcsset:item>

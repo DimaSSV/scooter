@@ -31,6 +31,11 @@
 			<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
 		</InputField>
+		<InputField name="Наименование" id="22">
+			<DataPath>Объект.Description</DataPath>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="24"/>
+		</InputField>
 		<CheckBoxField name="РежимПароля" id="10">
 			<DataPath>Объект.РежимПароля</DataPath>
 			<Visible>false</Visible>

@@ -61,11 +61,11 @@
 			<FoldersOnTop>true</FoldersOnTop>
 			<CodeLength>50</CodeLength>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
-			<DescriptionLength>0</DescriptionLength>
+			<DescriptionLength>150</DescriptionLength>
 			<CodeSeries>WholeCharacteristicKind</CodeSeries>
 			<CheckUnique>true</CheckUnique>
-			<Autonumbering>false</Autonumbering>
-			<DefaultPresentation>AsCode</DefaultPresentation>
+			<Autonumbering>true</Autonumbering>
+			<DefaultPresentation>AsDescription</DefaultPresentation>
 			<StandardAttributes>
 				<xr:StandardAttribute name="PredefinedDataName">
 					<xr:LinkByType/>
