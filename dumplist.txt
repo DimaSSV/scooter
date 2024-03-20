@@ -1,7 +1,1 @@
-﻿New: CommonModule.скт_ОбщегоНазначенияПовтИсп
-New: CommonModule.скт_ОбщегоНазначенияПовтИсп.Module
-Modified: Catalog.скт_Методы.ManagerModule
-Modified: CommonModule.скт_ОбщегоНазначенияВызовСервера.Module
-Modified: CommonModule.скт_ОбщегоНазначенияСервер.Module
-Modified: Configuration.Самокат
-Modified: HTTPService.скт_Scooter.Module
+﻿Modified: Catalog.скт_Методы.ManagerModule
