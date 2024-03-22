@@ -67,6 +67,7 @@
 							<v8:content>Аргументы</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
 					<ExtendedTooltip name="СтраницаАргументыРасширеннаяПодсказка" id="32"/>
 					<ChildItems>
 						<Table name="Аргументы" id="7">
@@ -103,6 +104,9 @@
 								<ContextMenu name="АргументыУправлениеПоискомКонтекстноеМеню" id="18"/>
 								<ExtendedTooltip name="АргументыУправлениеПоискомРасширеннаяПодсказка" id="19"/>
 							</SearchControlAddition>
+							<Events>
+								<Event name="DragCheck">АргументыПроверкаПеретаскивания</Event>
+							</Events>
 							<ChildItems>
 								<InputField name="АргументыИмя" id="20">
 									<DataPath>Объект.Аргументы.Имя</DataPath>
@@ -124,27 +128,32 @@
 									<ContextMenu name="АргументыАлгоритмПримененияКонтекстноеМеню" id="27"/>
 									<ExtendedTooltip name="АргументыАлгоритмПримененияРасширеннаяПодсказка" id="28"/>
 								</InputField>
+								<ColumnGroup name="АргументыГруппа1" id="121">
+									<Group>InCell</Group>
+									<ExtendedTooltip name="АргументыГруппа1РасширеннаяПодсказка" id="122"/>
+									<ChildItems>
+										<PictureField name="АргументыКартинка" id="118">
+											<DataPath>Объект.Аргументы.Картинка</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="АргументыКартинкаКонтекстноеМеню" id="119"/>
+											<ExtendedTooltip name="АргументыКартинкаРасширеннаяПодсказка" id="120"/>
+										</PictureField>
+										<InputField name="АргументыПрименятьКНастройке" id="115">
+											<DataPath>Объект.Аргументы.ПрименятьКНастройке</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="АргументыПрименятьКНастройкеКонтекстноеМеню" id="116"/>
+											<ExtendedTooltip name="АргументыПрименятьКНастройкеРасширеннаяПодсказка" id="117"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
 							</ChildItems>
 						</Table>
-					</ChildItems>
-				</Page>
-				<Page name="СтраницаКомпоновка" id="33">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Компоновка</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Компоновка</v8:content>
-						</v8:item>
-					</ToolTip>
-					<ExtendedTooltip name="СтраницаКомпоновкаРасширеннаяПодсказка" id="34"/>
-					<ChildItems>
-						<Table name="КомпоновщикПользовательскиеНастройки" id="35">
+						<Table name="КомпоновщикПользовательскиеНастройки" id="102">
 							<Autofill>true</Autofill>
+							<SelectionMode>SingleRow</SelectionMode>
+							<EnableStartDrag>true</EnableStartDrag>
 							<DataPath>Компоновщик.UserSettings</DataPath>
 							<CommandSet>
 								<ExcludedCommand>HierarchicalList</ExcludedCommand>
@@ -152,33 +161,36 @@
 								<ExcludedCommand>Tree</ExcludedCommand>
 							</CommandSet>
 							<ViewMode>All</ViewMode>
-							<ContextMenu name="КомпоновщикПользовательскиеНастройкиКонтекстноеМеню" id="36"/>
-							<AutoCommandBar name="КомпоновщикПользовательскиеНастройкиКоманднаяПанель" id="37"/>
-							<ExtendedTooltip name="КомпоновщикПользовательскиеНастройкиРасширеннаяПодсказка" id="38"/>
-							<SearchStringAddition name="КомпоновщикПользовательскиеНастройкиСтрокаПоиска" id="39">
+							<ContextMenu name="КомпоновщикПользовательскиеНастройкиКонтекстноеМеню" id="103"/>
+							<AutoCommandBar name="КомпоновщикПользовательскиеНастройкиКоманднаяПанель" id="104"/>
+							<ExtendedTooltip name="КомпоновщикПользовательскиеНастройкиРасширеннаяПодсказка" id="105"/>
+							<SearchStringAddition name="КомпоновщикПользовательскиеНастройкиСтрокаПоиска" id="106">
 								<AdditionSource>
 									<Item>КомпоновщикПользовательскиеНастройки</Item>
 									<Type>SearchStringRepresentation</Type>
 								</AdditionSource>
-								<ContextMenu name="КомпоновщикПользовательскиеНастройкиСтрокаПоискаКонтекстноеМеню" id="40"/>
-								<ExtendedTooltip name="КомпоновщикПользовательскиеНастройкиСтрокаПоискаРасширеннаяПодсказка" id="41"/>
+								<ContextMenu name="КомпоновщикПользовательскиеНастройкиСтрокаПоискаКонтекстноеМеню" id="107"/>
+								<ExtendedTooltip name="КомпоновщикПользовательскиеНастройкиСтрокаПоискаРасширеннаяПодсказка" id="108"/>
 							</SearchStringAddition>
-							<ViewStatusAddition name="КомпоновщикПользовательскиеНастройкиСостояниеПросмотра" id="42">
+							<ViewStatusAddition name="КомпоновщикПользовательскиеНастройкиСостояниеПросмотра" id="109">
 								<AdditionSource>
 									<Item>КомпоновщикПользовательскиеНастройки</Item>
 									<Type>ViewStatusRepresentation</Type>
 								</AdditionSource>
-								<ContextMenu name="КомпоновщикПользовательскиеНастройкиСостояниеПросмотраКонтекстноеМеню" id="43"/>
-								<ExtendedTooltip name="КомпоновщикПользовательскиеНастройкиСостояниеПросмотраРасширеннаяПодсказка" id="44"/>
+								<ContextMenu name="КомпоновщикПользовательскиеНастройкиСостояниеПросмотраКонтекстноеМеню" id="110"/>
+								<ExtendedTooltip name="КомпоновщикПользовательскиеНастройкиСостояниеПросмотраРасширеннаяПодсказка" id="111"/>
 							</ViewStatusAddition>
-							<SearchControlAddition name="КомпоновщикПользовательскиеНастройкиУправлениеПоиском" id="45">
+							<SearchControlAddition name="КомпоновщикПользовательскиеНастройкиУправлениеПоиском" id="112">
 								<AdditionSource>
 									<Item>КомпоновщикПользовательскиеНастройки</Item>
 									<Type>SearchControl</Type>
 								</AdditionSource>
-								<ContextMenu name="КомпоновщикПользовательскиеНастройкиУправлениеПоискомКонтекстноеМеню" id="46"/>
-								<ExtendedTooltip name="КомпоновщикПользовательскиеНастройкиУправлениеПоискомРасширеннаяПодсказка" id="47"/>
+								<ContextMenu name="КомпоновщикПользовательскиеНастройкиУправлениеПоискомКонтекстноеМеню" id="113"/>
+								<ExtendedTooltip name="КомпоновщикПользовательскиеНастройкиУправлениеПоискомРасширеннаяПодсказка" id="114"/>
 							</SearchControlAddition>
+							<Events>
+								<Event name="DragStart">КомпоновщикПользовательскиеНастройкиНачалоПеретаскивания</Event>
+							</Events>
 						</Table>
 					</ChildItems>
 				</Page>
@@ -342,6 +354,36 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
+			<Columns>
+				<AdditionalColumns table="Объект.Аргументы">
+					<Column name="ПрименятьКНастройке" id="1">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Применять к настройке</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>0</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+					</Column>
+					<Column name="Картинка" id="2">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Картинка</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>v8ui:Picture</v8:Type>
+						</Type>
+					</Column>
+				</AdditionalColumns>
+			</Columns>
 		</Attribute>
 		<Attribute name="Компоновщик" id="2">
 			<Title>

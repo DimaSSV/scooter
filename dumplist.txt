@@ -1,1 +1,3 @@
-﻿Modified: Catalog.скт_Методы.ManagerModule
+﻿Modified: Catalog.скт_Методы
+Modified: Catalog.скт_Методы.Form.ФормаЭлемента.Form
+Modified: Catalog.скт_Методы.ManagerModule
