@@ -920,10 +920,13 @@
 						<v8:Type>cfg:CatalogRef.скт_Методы</v8:Type>
 					</CommandParameterType>
 					<ParameterUseMode>Single</ParameterUseMode>
-					<ModifiesData>false</ModifiesData>
-					<Representation>Auto</Representation>
+					<ModifiesData>true</ModifiesData>
+					<Representation>PictureAndText</Representation>
 					<ToolTip/>
-					<Picture/>
+					<Picture>
+						<xr:Ref>StdPicture.BusinessProcessStart</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
 					<Shortcut/>
 					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
 				</Properties>

@@ -11,7 +11,7 @@
 		<Metadata name="Catalog.скт_Источники.Form.ФормаЭлемента.Form" id="b93a239c-d51e-460a-a6e9-1f998b3b721e.0" configVersion="1dbfa364f113f0a1a1366550fd7bae7b992efea3"/>
 		<Metadata name="Catalog.скт_Источники.ManagerModule" id="1be56ca8-d00e-4c75-82e1-ef63cdb66e70.3" configVersion="c8b0e8daeb8499ab162d0262bf52fba76b3eea25"/>
 		<Metadata name="Catalog.скт_Источники.ObjectModule" id="1be56ca8-d00e-4c75-82e1-ef63cdb66e70.0" configVersion="328c338e4a52ee183c0fb2795692af17450d45ac"/>
-		<Metadata name="Catalog.скт_Методы" id="65cc3c3f-52a5-4281-8f5f-4c445437bc83" configVersion="f60d3e093eb85d1eda1fd337a6fd46e5a430b552">
+		<Metadata name="Catalog.скт_Методы" id="65cc3c3f-52a5-4281-8f5f-4c445437bc83" configVersion="5ec891dad2cee91cd882263eaaeb20c87c1b3dab">
 			<Metadata name="Catalog.скт_Методы.TabularSection.Аргументы" id="0b86ec9f-f385-40e5-a6bc-28305d1064e2"/>
 			<Metadata name="Catalog.скт_Методы.TabularSection.Аргументы.Attribute.Имя" id="0e10ac84-785f-48b4-bdcb-d7741fae5bcc"/>
 			<Metadata name="Catalog.скт_Методы.Attribute.Архивировать" id="0f59b286-01c9-4073-b1a3-89c3999862e4"/>
@@ -31,10 +31,10 @@
 		</Metadata>
 		<Metadata name="Catalog.скт_Методы.Command.Отладить.CommandModule" id="1a1ac7d5-a8fe-4531-9f87-6569caa0cc1c.2" configVersion="707201e7bcedad107fa84628cbb57d2d8c411a0d"/>
 		<Metadata name="Catalog.скт_Методы.Form.ФормаВызоваМетода" id="599da773-f7e2-42f2-97b9-c68c0934bfb6" configVersion="5d755a50218ba8545dbb7ec26576ffd343c986f6"/>
-		<Metadata name="Catalog.скт_Методы.Form.ФормаВызоваМетода.Form" id="599da773-f7e2-42f2-97b9-c68c0934bfb6.0" configVersion="047cda17cb11d3d9c1f4bd7273bbf8ac22a47a5d"/>
+		<Metadata name="Catalog.скт_Методы.Form.ФормаВызоваМетода.Form" id="599da773-f7e2-42f2-97b9-c68c0934bfb6.0" configVersion="dc0ef04d3f4c0f202ae4cb88783fe590a17835ad"/>
 		<Metadata name="Catalog.скт_Методы.Form.ФормаЭлемента" id="bfe1ade7-5ae7-4362-be8e-685ea385a650" configVersion="61c5590c2f66387eb4b207ff4d66529b8ed02a76"/>
-		<Metadata name="Catalog.скт_Методы.Form.ФормаЭлемента.Form" id="bfe1ade7-5ae7-4362-be8e-685ea385a650.0" configVersion="a7d63721cb14c99a57009d372f963237d26d4eaa"/>
-		<Metadata name="Catalog.скт_Методы.ManagerModule" id="65cc3c3f-52a5-4281-8f5f-4c445437bc83.3" configVersion="67b6b52b868f1892ad6c119191ee1bed2b590b28"/>
+		<Metadata name="Catalog.скт_Методы.Form.ФормаЭлемента.Form" id="bfe1ade7-5ae7-4362-be8e-685ea385a650.0" configVersion="d4258ee7810c763f7f5cf8b19710ecf16862ca89"/>
+		<Metadata name="Catalog.скт_Методы.ManagerModule" id="65cc3c3f-52a5-4281-8f5f-4c445437bc83.3" configVersion="4e5e321905972c8a9f9fdaf7d7fd358b7f1fa8a6"/>
 		<Metadata name="Catalog.скт_Методы.ObjectModule" id="65cc3c3f-52a5-4281-8f5f-4c445437bc83.0" configVersion="1f22e3645d24ee3c0f266d75aa98e5e3733374f5"/>
 		<Metadata name="Catalog.скт_ПроизвольныеАлгоритмы" id="593ab038-5b29-4271-86c4-8dca25b3065b" configVersion="6c8ad5a9c2dcd5c56a86ed539a476ad692a00c97">
 			<Metadata name="Catalog.скт_ПроизвольныеАлгоритмы.Attribute.Вид" id="233ab447-9e66-4fe3-8e29-701766c74b4d"/>
