@@ -25,7 +25,26 @@
 			<DataPath>Аргументы</DataPath>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="АргументыКонтекстноеМеню" id="2"/>
-			<AutoCommandBar name="АргументыКоманднаяПанель" id="3"/>
+			<AutoCommandBar name="АргументыКоманднаяПанель" id="3">
+				<ChildItems>
+					<ButtonGroup name="ФормаГруппа1" id="28">
+						<Representation>Compact</Representation>
+						<ExtendedTooltip name="ФормаГруппа1РасширеннаяПодсказка" id="29"/>
+						<ChildItems>
+							<Button name="ФормаВыделитьВсе" id="30">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ВыделитьВсе</CommandName>
+								<ExtendedTooltip name="ФормаВыделитьВсеРасширеннаяПодсказка" id="31"/>
+							</Button>
+							<Button name="ФормаСнятьВсе" id="32">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.СнятьВсе</CommandName>
+								<ExtendedTooltip name="ФормаСнятьВсеРасширеннаяПодсказка" id="33"/>
+							</Button>
+						</ChildItems>
+					</ButtonGroup>
+				</ChildItems>
+			</AutoCommandBar>
 			<ExtendedTooltip name="АргументыРасширеннаяПодсказка" id="4"/>
 			<SearchStringAddition name="АргументыСтрокаПоиска" id="5">
 				<AdditionSource>
@@ -159,6 +178,48 @@
 				</Column>
 			</Columns>
 		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>Аргументы</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Аргументы.Использовать</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:BorderColor</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>АргументыЗначение</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Аргументы.Использовать</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
 	</Attributes>
 	<Commands>
 		<Command name="КомандаВыполнить" id="1">
@@ -175,6 +236,46 @@
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаВыполнить</Action>
+		</Command>
+		<Command name="ВыделитьВсе" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выделить все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выделить все</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CheckAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ВыделитьСнятьВсе</Action>
+			<AssociatedTableElementId xsi:type="xs:string">Аргументы</AssociatedTableElementId>
+		</Command>
+		<Command name="СнятьВсе" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Снять все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Снять все</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.UncheckAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ВыделитьСнятьВсе</Action>
+			<AssociatedTableElementId xsi:type="xs:string">Аргументы</AssociatedTableElementId>
 		</Command>
 	</Commands>
 	<Parameters>
