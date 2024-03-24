@@ -64,7 +64,7 @@
 			<DescriptionLength>150</DescriptionLength>
 			<CodeSeries>WholeCharacteristicKind</CodeSeries>
 			<CheckUnique>true</CheckUnique>
-			<Autonumbering>true</Autonumbering>
+			<Autonumbering>false</Autonumbering>
 			<DefaultPresentation>AsDescription</DefaultPresentation>
 			<StandardAttributes>
 				<xr:StandardAttribute name="PredefinedDataName">

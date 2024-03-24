@@ -20,6 +20,15 @@
 				</Type>
 				<IsFolder>false</IsFolder>
 			</Item>
+			<Item id="ac024978-e33c-4104-bad5-e4d6ef57a196">
+				<Name>скт_ЛогироватьВызовыМетодов</Name>
+				<Code>скт_ЛогироватьВызовыМетодов</Code>
+				<Description>Логировать вызовы методов</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
 		</ChildItems>
 	</Item>
 </PredefinedData>
