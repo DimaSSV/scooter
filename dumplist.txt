@@ -1,1 +1,1 @@
-﻿Modified: Role.скт_ОсновнаяРоль.Rights
+﻿Modified: CommonModule.скт_Документация.Module
