@@ -17,9 +17,16 @@
 		</CheckBoxField>
 		<InputField name="Код" id="1">
 			<DataPath>Объект.Code</DataPath>
+			<ToolTipRepresentation>Button</ToolTipRepresentation>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="123">
+			<DataPath>Объект.Description</DataPath>
+			<ToolTipRepresentation>Button</ToolTipRepresentation>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="124"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="125"/>
 		</InputField>
 		<InputField name="Источник" id="4">
 			<DataPath>Объект.Источник</DataPath>
@@ -346,6 +353,12 @@
 				</Page>
 			</ChildItems>
 		</Pages>
+		<InputField name="ОписаниеМетода" id="126">
+			<DataPath>Объект.ОписаниеМетода</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="ОписаниеМетодаКонтекстноеМеню" id="127"/>
+			<ExtendedTooltip name="ОписаниеМетодаРасширеннаяПодсказка" id="128"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">

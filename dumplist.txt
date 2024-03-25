@@ -1,0 +1,8 @@
+﻿New: CommonModule.скт_Документация
+New: CommonModule.скт_Документация.Module
+Modified: Catalog.скт_Методы
+Modified: Catalog.скт_Методы.Form.ФормаЭлемента.Form
+Modified: CommonModule.скт_КомпоновкаДанныхСервер.Module
+Modified: Configuration.Самокат
+Modified: HTTPService.скт_Scooter
+Modified: HTTPService.скт_Scooter.Module

@@ -11,11 +11,12 @@
 		<Metadata name="Catalog.скт_Источники.Form.ФормаЭлемента.Form" id="b93a239c-d51e-460a-a6e9-1f998b3b721e.0" configVersion="1dbfa364f113f0a1a1366550fd7bae7b992efea3"/>
 		<Metadata name="Catalog.скт_Источники.ManagerModule" id="1be56ca8-d00e-4c75-82e1-ef63cdb66e70.3" configVersion="c8b0e8daeb8499ab162d0262bf52fba76b3eea25"/>
 		<Metadata name="Catalog.скт_Источники.ObjectModule" id="1be56ca8-d00e-4c75-82e1-ef63cdb66e70.0" configVersion="328c338e4a52ee183c0fb2795692af17450d45ac"/>
-		<Metadata name="Catalog.скт_Методы" id="65cc3c3f-52a5-4281-8f5f-4c445437bc83" configVersion="5ec891dad2cee91cd882263eaaeb20c87c1b3dab">
+		<Metadata name="Catalog.скт_Методы" id="65cc3c3f-52a5-4281-8f5f-4c445437bc83" configVersion="398886fc041fa3a87754b069c313ff22b78ba19d">
 			<Metadata name="Catalog.скт_Методы.TabularSection.Аргументы" id="0b86ec9f-f385-40e5-a6bc-28305d1064e2"/>
 			<Metadata name="Catalog.скт_Методы.TabularSection.Аргументы.Attribute.Имя" id="0e10ac84-785f-48b4-bdcb-d7741fae5bcc"/>
 			<Metadata name="Catalog.скт_Методы.Attribute.Архивировать" id="0f59b286-01c9-4073-b1a3-89c3999862e4"/>
 			<Metadata name="Catalog.скт_Методы.Command.Отладить" id="1a1ac7d5-a8fe-4531-9f87-6569caa0cc1c"/>
+			<Metadata name="Catalog.скт_Методы.Attribute.ОписаниеМетода" id="1dabe398-6484-4820-ad38-44d8de7065ff"/>
 			<Metadata name="Catalog.скт_Методы.Attribute.ПользовательскиеНастройки" id="36b3a64b-9a49-4b2d-b6fe-9d6a51a249b2"/>
 			<Metadata name="Catalog.скт_Методы.TabularSection.Подготовка.Attribute.Алгоритм" id="474bdff4-39bb-48cc-85b1-734c1933cee8"/>
 			<Metadata name="Catalog.скт_Методы.Attribute.Активность" id="4ef8d04d-365b-4b53-a5dc-50654134c211"/>
@@ -33,7 +34,7 @@
 		<Metadata name="Catalog.скт_Методы.Form.ФормаВызоваМетода" id="599da773-f7e2-42f2-97b9-c68c0934bfb6" configVersion="5d755a50218ba8545dbb7ec26576ffd343c986f6"/>
 		<Metadata name="Catalog.скт_Методы.Form.ФормаВызоваМетода.Form" id="599da773-f7e2-42f2-97b9-c68c0934bfb6.0" configVersion="8ae285aeb3e3e8f3523bfcf054ccb8f8ec19f4f6"/>
 		<Metadata name="Catalog.скт_Методы.Form.ФормаЭлемента" id="bfe1ade7-5ae7-4362-be8e-685ea385a650" configVersion="61c5590c2f66387eb4b207ff4d66529b8ed02a76"/>
-		<Metadata name="Catalog.скт_Методы.Form.ФормаЭлемента.Form" id="bfe1ade7-5ae7-4362-be8e-685ea385a650.0" configVersion="d4258ee7810c763f7f5cf8b19710ecf16862ca89"/>
+		<Metadata name="Catalog.скт_Методы.Form.ФормаЭлемента.Form" id="bfe1ade7-5ae7-4362-be8e-685ea385a650.0" configVersion="ef2999c7c650939f9b85e0f89c941f41650de9f2"/>
 		<Metadata name="Catalog.скт_Методы.ManagerModule" id="65cc3c3f-52a5-4281-8f5f-4c445437bc83.3" configVersion="d76f7cf6ad66170c6db6a950062bbb732a2f1cd2"/>
 		<Metadata name="Catalog.скт_Методы.ObjectModule" id="65cc3c3f-52a5-4281-8f5f-4c445437bc83.0" configVersion="1f22e3645d24ee3c0f266d75aa98e5e3733374f5"/>
 		<Metadata name="Catalog.скт_ПроизвольныеАлгоритмы" id="593ab038-5b29-4271-86c4-8dca25b3065b" configVersion="6c8ad5a9c2dcd5c56a86ed539a476ad692a00c97">
@@ -61,10 +62,12 @@
 		<Metadata name="ChartOfCharacteristicTypes.скт_ДополнительныеНастройки.Predefined" id="f4432b91-b82a-47de-a77e-bafeb336db9e.7" configVersion="a645a04bd470ce32e8bfe5490386cfc3c2809cca"/>
 		<Metadata name="CommonForm.скт_ФормаВыбораНаСервере" id="76e7fac8-de9e-477c-b978-25e93352e8f0" configVersion="5070cfc9c0d167a6a3273ddd33ac52b1b4ddbe2d"/>
 		<Metadata name="CommonForm.скт_ФормаВыбораНаСервере.Form" id="76e7fac8-de9e-477c-b978-25e93352e8f0.0" configVersion="8258f8b0c700bf5d74d9386bd06baa0394e1586b"/>
+		<Metadata name="CommonModule.скт_Документация" id="020be688-2c1c-4105-bbdd-054a63498912" configVersion="2abe478a0a3d100611a5b78e80f7c34eb1a79b59"/>
+		<Metadata name="CommonModule.скт_Документация.Module" id="020be688-2c1c-4105-bbdd-054a63498912.0" configVersion="87249619e5bbbfea63650586720ea60364951344"/>
 		<Metadata name="CommonModule.скт_КомпоновкаДанныхКлиентСервер" id="c2c1defc-2529-43e0-9066-349eabaaf7de" configVersion="21ae3aaaf9e8778b779396d38204abcf3caf7694"/>
 		<Metadata name="CommonModule.скт_КомпоновкаДанныхКлиентСервер.Module" id="c2c1defc-2529-43e0-9066-349eabaaf7de.0" configVersion="ac7fa43c76ec97f2a72b5c75771ae3b347ba4616"/>
 		<Metadata name="CommonModule.скт_КомпоновкаДанныхСервер" id="3073efce-0ec9-4d6c-a7de-676a80f1e6be" configVersion="ce51f650e4207ce7cb1691b4f05d2705bbed08aa"/>
-		<Metadata name="CommonModule.скт_КомпоновкаДанныхСервер.Module" id="3073efce-0ec9-4d6c-a7de-676a80f1e6be.0" configVersion="c8d6deeafec88586484efa1ec9ef427142a9d41b"/>
+		<Metadata name="CommonModule.скт_КомпоновкаДанныхСервер.Module" id="3073efce-0ec9-4d6c-a7de-676a80f1e6be.0" configVersion="856bd82b16bb667ed603eec7abe2e67ead806fb2"/>
 		<Metadata name="CommonModule.скт_ОбщегоНазначенияВызовСервера" id="0a22e554-0c7d-4356-99c5-d047958ba7ee" configVersion="f8673a5a168aaeaadd022ed9b1c042cb9d00c9bb"/>
 		<Metadata name="CommonModule.скт_ОбщегоНазначенияВызовСервера.Module" id="0a22e554-0c7d-4356-99c5-d047958ba7ee.0" configVersion="3f7859b39cdebf8f9784bdbf584bc25e7f980ddd"/>
 		<Metadata name="CommonModule.скт_ОбщегоНазначенияКлиент" id="11f15a57-dc1c-414d-ae19-64ce6da888cf" configVersion="0e147a1b42f5aed9b5ec9caeee86c1679cbbc3c8"/>
@@ -85,7 +88,7 @@
 		<Metadata name="CommonPicture.скт_Логотип.Picture" id="49346140-85ac-448a-92bc-d3096ab43200.0" configVersion="cc6781005472cda6e22d120e0cb37fe0333e8703"/>
 		<Metadata name="CommonPicture.скт_УдалитьКомментарий" id="370c02b4-b23e-4726-86ce-5fed5566f3a3" configVersion="faa08f5e066c4f8af177b7458e1d67c55cb8aabc"/>
 		<Metadata name="CommonPicture.скт_УдалитьКомментарий.Picture" id="370c02b4-b23e-4726-86ce-5fed5566f3a3.0" configVersion="921ecbbc21ea1b45982febc6a0e7158dcb202571"/>
-		<Metadata name="Configuration.Самокат" id="f60ed8bd-13b2-4fdd-841f-6b203ef294d8" configVersion="e55746d8cc8d418cb1e42857bb3016eaf328a976"/>
+		<Metadata name="Configuration.Самокат" id="f60ed8bd-13b2-4fdd-841f-6b203ef294d8" configVersion="49628bb17adaa45b83e98a8688003f587eab2e85"/>
 		<Metadata name="Configuration.Самокат.CommandInterface" id="eea76aab-0a6d-48c3-a759-f5529b9e471d.a" configVersion="fdaec039eea90396e8275a4185f01ff2ce9f09af"/>
 		<Metadata name="DataProcessor.скт_Конвертация_КонвертацияСтрокаДатаISO" id="1a64f81f-7875-4f7f-8f02-f78b77a52689" configVersion="512d465fc815beeb536c34b59b31e32fcf13500a"/>
 		<Metadata name="DataProcessor.скт_Конвертация_КонвертацияСтрокаДатаISO.ObjectModule" id="1a64f81f-7875-4f7f-8f02-f78b77a52689.0" configVersion="6c4ffa04df15542fd2ad67d3fb03ffdc02c22f64"/>
@@ -119,11 +122,13 @@
 			<Metadata name="Enum.скт_СпособыДоставкиРезультата.EnumValue.Непосредственно" id="c5ecd1c3-d58a-43c8-8640-d5d4600cfab8"/>
 			<Metadata name="Enum.скт_СпособыДоставкиРезультата.EnumValue.ВыгрузкаВКаталог" id="c7b9faab-eb23-4751-a43c-7ef454dd68ad"/>
 		</Metadata>
-		<Metadata name="HTTPService.скт_Scooter" id="d02dcb1d-33b3-433d-bb03-b5069e5b6e8a" configVersion="eee95326ee3afb349b6d621bb16c2e8a93dae32f">
+		<Metadata name="HTTPService.скт_Scooter" id="d02dcb1d-33b3-433d-bb03-b5069e5b6e8a" configVersion="ac68846d4df423757bf3e174a31d02b9233b5856">
+			<Metadata name="HTTPService.скт_Scooter.URLTemplate.Doc.Method.GET" id="165aa034-5560-4898-9c32-a342ffaf7be5"/>
+			<Metadata name="HTTPService.скт_Scooter.URLTemplate.Doc" id="b0c7d1b3-969d-4eac-af1c-a7a57463579a"/>
 			<Metadata name="HTTPService.скт_Scooter.URLTemplate.Download.Method.GET" id="c52e764a-1d10-4c7c-b944-a1b85e7b8768"/>
 			<Metadata name="HTTPService.скт_Scooter.URLTemplate.Download" id="fd3acb68-122e-4c58-b185-81166d8d8a51"/>
 		</Metadata>
-		<Metadata name="HTTPService.скт_Scooter.Module" id="d02dcb1d-33b3-433d-bb03-b5069e5b6e8a.0" configVersion="1c4cdbb0b970a7bd22e0bb4a7b5dad957c65161d"/>
+		<Metadata name="HTTPService.скт_Scooter.Module" id="d02dcb1d-33b3-433d-bb03-b5069e5b6e8a.0" configVersion="eef2143e96ad29bf3a759f99f7fa862775117a91"/>
 		<Metadata name="InformationRegister.скт_ЗначенияДополнительныхНастроек" id="a0f11575-891b-47ac-89fe-b368f01cf972" configVersion="106d81472845f83ffbacf8d64b0360c0296dfddf">
 			<Metadata name="InformationRegister.скт_ЗначенияДополнительныхНастроек.Dimension.Настройка" id="c7f8a246-102e-42b8-a6dc-af6f0333d6df"/>
 			<Metadata name="InformationRegister.скт_ЗначенияДополнительныхНастроек.Resource.Значение" id="f180a7fe-94a9-4d24-b01e-c1dee38c5bdc"/>

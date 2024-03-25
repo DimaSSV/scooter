@@ -44,6 +44,35 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="b0c7d1b3-969d-4eac-af1c-a7a57463579a">
+				<Properties>
+					<Name>Doc</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Doc</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/doc</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="165aa034-5560-4898-9c32-a342ffaf7be5">
+						<Properties>
+							<Name>GET</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>GET</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>DocGET</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>
