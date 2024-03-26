@@ -63,7 +63,7 @@
 		<Metadata name="CommonForm.скт_ФормаВыбораНаСервере" id="76e7fac8-de9e-477c-b978-25e93352e8f0" configVersion="5070cfc9c0d167a6a3273ddd33ac52b1b4ddbe2d"/>
 		<Metadata name="CommonForm.скт_ФормаВыбораНаСервере.Form" id="76e7fac8-de9e-477c-b978-25e93352e8f0.0" configVersion="8258f8b0c700bf5d74d9386bd06baa0394e1586b"/>
 		<Metadata name="CommonModule.скт_Документация" id="020be688-2c1c-4105-bbdd-054a63498912" configVersion="2abe478a0a3d100611a5b78e80f7c34eb1a79b59"/>
-		<Metadata name="CommonModule.скт_Документация.Module" id="020be688-2c1c-4105-bbdd-054a63498912.0" configVersion="2fb9cf88dc4b844ab0bc2584b9424cea0bf1e42a"/>
+		<Metadata name="CommonModule.скт_Документация.Module" id="020be688-2c1c-4105-bbdd-054a63498912.0" configVersion="e7e8796dd05dde15e29fc68781d58f4256fc732b"/>
 		<Metadata name="CommonModule.скт_КомпоновкаДанныхКлиентСервер" id="c2c1defc-2529-43e0-9066-349eabaaf7de" configVersion="21ae3aaaf9e8778b779396d38204abcf3caf7694"/>
 		<Metadata name="CommonModule.скт_КомпоновкаДанныхКлиентСервер.Module" id="c2c1defc-2529-43e0-9066-349eabaaf7de.0" configVersion="ac7fa43c76ec97f2a72b5c75771ae3b347ba4616"/>
 		<Metadata name="CommonModule.скт_КомпоновкаДанныхСервер" id="3073efce-0ec9-4d6c-a7de-676a80f1e6be" configVersion="ce51f650e4207ce7cb1691b4f05d2705bbed08aa"/>
