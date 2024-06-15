@@ -35,7 +35,7 @@
 		<Metadata name="Catalog.скт_Методы.Form.ФормаВызоваМетода.Form" id="599da773-f7e2-42f2-97b9-c68c0934bfb6.0" configVersion="8ae285aeb3e3e8f3523bfcf054ccb8f8ec19f4f6"/>
 		<Metadata name="Catalog.скт_Методы.Form.ФормаЭлемента" id="bfe1ade7-5ae7-4362-be8e-685ea385a650" configVersion="61c5590c2f66387eb4b207ff4d66529b8ed02a76"/>
 		<Metadata name="Catalog.скт_Методы.Form.ФормаЭлемента.Form" id="bfe1ade7-5ae7-4362-be8e-685ea385a650.0" configVersion="ef2999c7c650939f9b85e0f89c941f41650de9f2"/>
-		<Metadata name="Catalog.скт_Методы.ManagerModule" id="65cc3c3f-52a5-4281-8f5f-4c445437bc83.3" configVersion="d76f7cf6ad66170c6db6a950062bbb732a2f1cd2"/>
+		<Metadata name="Catalog.скт_Методы.ManagerModule" id="65cc3c3f-52a5-4281-8f5f-4c445437bc83.3" configVersion="064ee0e5a79ef7f1c6a7d7d91187570bac7df345"/>
 		<Metadata name="Catalog.скт_Методы.ObjectModule" id="65cc3c3f-52a5-4281-8f5f-4c445437bc83.0" configVersion="1f22e3645d24ee3c0f266d75aa98e5e3733374f5"/>
 		<Metadata name="Catalog.скт_ПроизвольныеАлгоритмы" id="593ab038-5b29-4271-86c4-8dca25b3065b" configVersion="6c8ad5a9c2dcd5c56a86ed539a476ad692a00c97">
 			<Metadata name="Catalog.скт_ПроизвольныеАлгоритмы.Attribute.Вид" id="233ab447-9e66-4fe3-8e29-701766c74b4d"/>
@@ -47,7 +47,7 @@
 		<Metadata name="Catalog.скт_ПроизвольныеАлгоритмы.Form.ФормаЭлемента.Form" id="a73af797-fd2b-4438-9851-daaba7b8f3b4.0" configVersion="82c03609181dea7fec745264ccc8f065d166f0d2"/>
 		<Metadata name="Catalog.скт_ПроизвольныеАлгоритмы.ObjectModule" id="593ab038-5b29-4271-86c4-8dca25b3065b.0" configVersion="12609ec16caf5f3be13810604919e229796ac49c"/>
 		<Metadata name="Catalog.скт_ПроизвольныеАлгоритмы.Template.ШаблонКонвертация" id="58f0f24c-0305-4966-b714-224719aaf08a" configVersion="237148a2a386ade047e4821cfdd1381ef1726089"/>
-		<Metadata name="Catalog.скт_ПроизвольныеАлгоритмы.Template.ШаблонКонвертация.Template" id="58f0f24c-0305-4966-b714-224719aaf08a.0" configVersion="bc506594ede86f636ecc335375a4ac7bfa7bd323"/>
+		<Metadata name="Catalog.скт_ПроизвольныеАлгоритмы.Template.ШаблонКонвертация.Template" id="58f0f24c-0305-4966-b714-224719aaf08a.0" configVersion="3aa67f58e6025e4a9b6408d85f93fc1feb05195d"/>
 		<Metadata name="Catalog.скт_ПроизвольныеАлгоритмы.Template.ШаблонПодготовкаМетода" id="5d6ed7cd-2ffb-40ad-9d22-ec94fdb0c2c8" configVersion="6314ce21cd378c7fe752a57ebf7b51a90c1d056f"/>
 		<Metadata name="Catalog.скт_ПроизвольныеАлгоритмы.Template.ШаблонПодготовкаМетода.Template" id="5d6ed7cd-2ffb-40ad-9d22-ec94fdb0c2c8.0" configVersion="89f8bad313df27bd6cedaf6bdb0aaf51db563565"/>
 		<Metadata name="ChartOfCharacteristicTypes.скт_ДополнительныеНастройки" id="f4432b91-b82a-47de-a77e-bafeb336db9e" configVersion="3d4e652298a7728d9d1358d34cc90481b20cd6a7">
@@ -91,9 +91,9 @@
 		<Metadata name="Configuration.Самокат" id="f60ed8bd-13b2-4fdd-841f-6b203ef294d8" configVersion="49628bb17adaa45b83e98a8688003f587eab2e85"/>
 		<Metadata name="Configuration.Самокат.CommandInterface" id="eea76aab-0a6d-48c3-a759-f5529b9e471d.a" configVersion="fdaec039eea90396e8275a4185f01ff2ce9f09af"/>
 		<Metadata name="DataProcessor.скт_Конвертация_КонвертацияСтрокаДатаISO" id="1a64f81f-7875-4f7f-8f02-f78b77a52689" configVersion="512d465fc815beeb536c34b59b31e32fcf13500a"/>
-		<Metadata name="DataProcessor.скт_Конвертация_КонвертацияСтрокаДатаISO.ObjectModule" id="1a64f81f-7875-4f7f-8f02-f78b77a52689.0" configVersion="6c4ffa04df15542fd2ad67d3fb03ffdc02c22f64"/>
+		<Metadata name="DataProcessor.скт_Конвертация_КонвертацияСтрокаДатаISO.ObjectModule" id="1a64f81f-7875-4f7f-8f02-f78b77a52689.0" configVersion="fe5bcbcea4bda9ce30a766ee819e668815eb4a98"/>
 		<Metadata name="DataProcessor.скт_Конвертация_ФиктивнаяКонвертация" id="2e9fe9a0-eb5e-4239-8b7b-b694fc515fd1" configVersion="ad9dacdf575abd38888cd5f86554a08945cbab3b"/>
-		<Metadata name="DataProcessor.скт_Конвертация_ФиктивнаяКонвертация.ObjectModule" id="2e9fe9a0-eb5e-4239-8b7b-b694fc515fd1.0" configVersion="8adcd433a00ba38973fa6f435e5a06a9587fc181"/>
+		<Metadata name="DataProcessor.скт_Конвертация_ФиктивнаяКонвертация.ObjectModule" id="2e9fe9a0-eb5e-4239-8b7b-b694fc515fd1.0" configVersion="57afb2049858e0f1879872fa5c5a8290b99ad348"/>
 		<Metadata name="DataProcessor.скт_Подготовка_ФиктивнаяПодготовкаМетода" id="912164b0-51f6-4ae6-9c28-913f02acd854" configVersion="896ddd24eeb931ca0551c12a4972f17d7be8aba3"/>
 		<Metadata name="DataProcessor.скт_Подготовка_ФиктивнаяПодготовкаМетода.ObjectModule" id="912164b0-51f6-4ae6-9c28-913f02acd854.0" configVersion="80191e6ec2cee4500efcd5454221b831269d1a25"/>
 		<Metadata name="Enum.скт_ВариантыРасположенияАлгоритмов" id="6953a2e2-3a5c-4cd4-990a-799e4911fa13" configVersion="70c7347c1199577501d1af6c171a31685da683b7">

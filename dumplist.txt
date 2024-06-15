@@ -1,1 +1,4 @@
-﻿Modified: CommonModule.скт_Документация.Module
+﻿Modified: Catalog.скт_Методы.ManagerModule
+Modified: Catalog.скт_ПроизвольныеАлгоритмы.Template.ШаблонКонвертация.Template
+Modified: DataProcessor.скт_Конвертация_КонвертацияСтрокаДатаISO.ObjectModule
+Modified: DataProcessor.скт_Конвертация_ФиктивнаяКонвертация.ObjectModule
