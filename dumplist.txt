@@ -1,15 +1,2 @@
-﻿New: Catalog.скт_ПроизвольныеАлгоритмы.Template.Шаблон_Сериализация
-New: Catalog.скт_ПроизвольныеАлгоритмы.Template.Шаблон_Сериализация.Template
-New: DataProcessor.скт_Сериализация_ФикстивнаяСериализация
-New: DataProcessor.скт_Сериализация_ФикстивнаяСериализация.ObjectModule
-Modified: Catalog.скт_Методы
-Modified: Catalog.скт_Методы.Form.ФормаЭлемента.Form
+﻿Modified: Catalog.скт_Методы.Form.ФормаЭлемента.Form
 Modified: Catalog.скт_Методы.ManagerModule
-Modified: Catalog.скт_Методы.ObjectModule
-Modified: Catalog.скт_ПроизвольныеАлгоритмы
-Modified: Catalog.скт_ПроизвольныеАлгоритмы.Form.ФормаЭлемента.Form
-Modified: Catalog.скт_ПроизвольныеАлгоритмы.ObjectModule
-Modified: Configuration.Самокат
-Modified: Enum.скт_ВариантыФорматовВыгрузки
-Modified: Enum.скт_ВидыПроизвольныхАлгоритмов
-Modified: Subsystem.скт_Самокат

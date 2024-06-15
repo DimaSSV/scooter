@@ -40,7 +40,15 @@
 		<LabelField name="АдресМетода" id="99">
 			<DataPath>АдресМетода</DataPath>
 			<Hiperlink>true</Hiperlink>
-			<ContextMenu name="АдресМетодаКонтекстноеМеню" id="100"/>
+			<ContextMenu name="АдресМетодаКонтекстноеМеню" id="100">
+				<ChildItems>
+					<Button name="АдресМетодаКонтекстноеМенюНастроитьАдрес" id="132">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.НастроитьАдрес</CommandName>
+						<ExtendedTooltip name="АдресМетодаКонтекстноеМенюНастроитьАдресРасширеннаяПодсказка" id="133"/>
+					</Button>
+				</ChildItems>
+			</ContextMenu>
 			<ExtendedTooltip name="АдресМетодаРасширеннаяПодсказка" id="101"/>
 			<Events>
 				<Event name="Click">АдресМетодаНажатие</Event>
@@ -480,6 +488,25 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПроверитьДоступКПапке</Action>
+		</Command>
+		<Command name="НастроитьАдрес" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настроить адрес</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настроить адрес</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Setting</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>НастроитьАдрес</Action>
 		</Command>
 	</Commands>
 </Form>
