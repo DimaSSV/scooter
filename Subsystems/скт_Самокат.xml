@@ -39,7 +39,15 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.скт_ОбщегоНазначенияСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.скт_ПроизвольныеАлгоритмыСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.скт_ПроцедурыHTTP</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">61c2ca69-e090-4073-a9fa-6bcd491d2004</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.скт_Подготовка_ФиктивнаяПодготовкаМетода</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.скт_Конвертация_КонвертацияСтрокаДатаISO</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.скт_Сериализация_ФикстивнаяСериализация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.скт_СпособыДоставкиРезультата</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.скт_ОбщегоНазначенияПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.скт_Документация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.скт_ОсновнаяРоль</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.скт_ФормаВыбораНаСервере</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.скт_ДобавитьКомментарий</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

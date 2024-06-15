@@ -89,6 +89,7 @@
 			<DataProcessor>скт_Конвертация_ФиктивнаяКонвертация</DataProcessor>
 			<DataProcessor>скт_Подготовка_ФиктивнаяПодготовкаМетода</DataProcessor>
 			<DataProcessor>скт_Конвертация_КонвертацияСтрокаДатаISO</DataProcessor>
+			<DataProcessor>скт_Сериализация_ФикстивнаяСериализация</DataProcessor>
 			<InformationRegister>скт_ЗначенияДополнительныхНастроек</InformationRegister>
 			<ChartOfCharacteristicTypes>скт_ДополнительныеНастройки</ChartOfCharacteristicTypes>
 		</ChildObjects>

@@ -293,6 +293,15 @@
 							<DataPath>Объект.Формат</DataPath>
 							<ContextMenu name="ФорматКонтекстноеМеню" id="51"/>
 							<ExtendedTooltip name="ФорматРасширеннаяПодсказка" id="52"/>
+							<Events>
+								<Event name="OnChange">ФорматПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="Сериализация" id="129">
+							<DataPath>Объект.Сериализация</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СериализацияКонтекстноеМеню" id="130"/>
+							<ExtendedTooltip name="СериализацияРасширеннаяПодсказка" id="131"/>
 						</InputField>
 						<InputField name="СпособДоставки" id="53">
 							<DataPath>Объект.СпособДоставки</DataPath>

@@ -254,6 +254,7 @@
 			<Form>ФормаЭлемента</Form>
 			<Template>ШаблонКонвертация</Template>
 			<Template>ШаблонПодготовкаМетода</Template>
+			<Template>Шаблон_Сериализация</Template>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
