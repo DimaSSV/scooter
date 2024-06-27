@@ -36,7 +36,7 @@
 		<Metadata name="Catalog.скт_Методы.Form.ФормаВызоваМетода.Form" id="599da773-f7e2-42f2-97b9-c68c0934bfb6.0" configVersion="8ae285aeb3e3e8f3523bfcf054ccb8f8ec19f4f6"/>
 		<Metadata name="Catalog.скт_Методы.Form.ФормаЭлемента" id="bfe1ade7-5ae7-4362-be8e-685ea385a650" configVersion="61c5590c2f66387eb4b207ff4d66529b8ed02a76"/>
 		<Metadata name="Catalog.скт_Методы.Form.ФормаЭлемента.Form" id="bfe1ade7-5ae7-4362-be8e-685ea385a650.0" configVersion="820694ffcab87c6e4b4093986f0950d275aed16b"/>
-		<Metadata name="Catalog.скт_Методы.ManagerModule" id="65cc3c3f-52a5-4281-8f5f-4c445437bc83.3" configVersion="4f38b78a0e7bf9e662aab304b111d1c0e292fd6f"/>
+		<Metadata name="Catalog.скт_Методы.ManagerModule" id="65cc3c3f-52a5-4281-8f5f-4c445437bc83.3" configVersion="1de24da6319c1ba2c2735d497dff685bcfb18465"/>
 		<Metadata name="Catalog.скт_Методы.ObjectModule" id="65cc3c3f-52a5-4281-8f5f-4c445437bc83.0" configVersion="3614e0db621a2c2209d5c333c3f8e181ea208c4d"/>
 		<Metadata name="Catalog.скт_ПроизвольныеАлгоритмы" id="593ab038-5b29-4271-86c4-8dca25b3065b" configVersion="ebaacec91937bb51ab009b5659afef4cbef99696">
 			<Metadata name="Catalog.скт_ПроизвольныеАлгоритмы.Attribute.Вид" id="233ab447-9e66-4fe3-8e29-701766c74b4d"/>
@@ -135,7 +135,7 @@
 			<Metadata name="HTTPService.скт_Scooter.URLTemplate.Download.Method.GET" id="c52e764a-1d10-4c7c-b944-a1b85e7b8768"/>
 			<Metadata name="HTTPService.скт_Scooter.URLTemplate.Download" id="fd3acb68-122e-4c58-b185-81166d8d8a51"/>
 		</Metadata>
-		<Metadata name="HTTPService.скт_Scooter.Module" id="d02dcb1d-33b3-433d-bb03-b5069e5b6e8a.0" configVersion="eef2143e96ad29bf3a759f99f7fa862775117a91"/>
+		<Metadata name="HTTPService.скт_Scooter.Module" id="d02dcb1d-33b3-433d-bb03-b5069e5b6e8a.0" configVersion="3254533a3243f48f80f57b3957001e79bcf4a0ac"/>
 		<Metadata name="InformationRegister.скт_ЗначенияДополнительныхНастроек" id="a0f11575-891b-47ac-89fe-b368f01cf972" configVersion="106d81472845f83ffbacf8d64b0360c0296dfddf">
 			<Metadata name="InformationRegister.скт_ЗначенияДополнительныхНастроек.Dimension.Настройка" id="c7f8a246-102e-42b8-a6dc-af6f0333d6df"/>
 			<Metadata name="InformationRegister.скт_ЗначенияДополнительныхНастроек.Resource.Значение" id="f180a7fe-94a9-4d24-b01e-c1dee38c5bdc"/>
