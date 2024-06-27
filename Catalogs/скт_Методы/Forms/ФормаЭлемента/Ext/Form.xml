@@ -156,10 +156,13 @@
 										</PictureField>
 										<InputField name="АргументыПрименятьКНастройке" id="115">
 											<DataPath>Объект.Аргументы.ПрименятьКНастройке</DataPath>
-											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<TextEdit>false</TextEdit>
 											<ContextMenu name="АргументыПрименятьКНастройкеКонтекстноеМеню" id="116"/>
 											<ExtendedTooltip name="АргументыПрименятьКНастройкеРасширеннаяПодсказка" id="117"/>
+											<Events>
+												<Event name="ChoiceProcessing">АргументыПрименятьКНастройкеОбработкаВыбора</Event>
+											</Events>
 										</InputField>
 									</ChildItems>
 								</ColumnGroup>

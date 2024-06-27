@@ -1,1 +1,1 @@
-﻿Modified: Configuration.Самокат
+﻿Modified: Catalog.скт_Методы.Form.ФормаЭлемента.Form
