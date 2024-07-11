@@ -1,1 +1,1 @@
-﻿Modified: CommonModule.скт_КомпоновкаДанныхСервер.Module
+﻿Modified: CommonModule.скт_КомпоновкаДанныхКлиентСервер.Module
