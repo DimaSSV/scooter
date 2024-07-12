@@ -1,1 +1,2 @@
-﻿Modified: Catalog.скт_ПроизвольныеАлгоритмы.Form.ФормаЭлемента.Form
+﻿Modified: Catalog.скт_Источники.ManagerModule
+Modified: Catalog.скт_Источники.ObjectModule
