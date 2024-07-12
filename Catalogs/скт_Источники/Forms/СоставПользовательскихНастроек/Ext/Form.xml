@@ -38,7 +38,7 @@
 			<ExtendedTooltip name="ПорядокРасширеннаяПодсказка" id="9"/>
 		</CheckBoxField>
 		<CheckBoxField name="Условноеоформление" id="10">
-			<DataPath>КомпоновщикУсловноеоформление</DataPath>
+			<DataPath>КомпоновщикУсловноеОформление</DataPath>
 			<TitleLocation>Right</TitleLocation>
 			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="УсловноеоформлениеКонтекстноеМеню" id="11"/>
@@ -86,11 +86,11 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="КомпоновщикУсловноеоформление" id="4">
+		<Attribute name="КомпоновщикУсловноеОформление" id="4">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Условноеоформление</v8:content>
+					<v8:content>Условное оформление</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
