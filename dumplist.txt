@@ -1,1 +1,1 @@
-﻿Modified: CommonModule.скт_Документация.Module
+﻿Modified: Catalog.скт_ПроизвольныеАлгоритмы.ObjectModule
