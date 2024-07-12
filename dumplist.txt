@@ -1,1 +1,1 @@
-﻿Modified: CommonModule.скт_ОбщегоНазначенияКлиент.Module
+﻿Modified: CommonModule.скт_ОбщегоНазначенияСервер.Module
