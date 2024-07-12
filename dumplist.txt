@@ -1,1 +1,1 @@
-﻿Modified: CommonModule.скт_ПроцедурыHTTP.Module
+﻿Modified: CommonModule.скт_ОбщегоНазначенияКлиентСервер.Module
