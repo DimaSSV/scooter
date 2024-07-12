@@ -31,13 +31,13 @@
 			<Metadata name="Catalog.скт_Методы.Attribute.Источник" id="feb58498-6791-4368-87b6-0f2d7ca77928"/>
 			<Metadata name="Catalog.скт_Методы.Attribute.Формат" id="ffcce9d9-01d4-4c20-8492-59f01ea61165"/>
 		</Metadata>
-		<Metadata name="Catalog.скт_Методы.Command.Отладить.CommandModule" id="1a1ac7d5-a8fe-4531-9f87-6569caa0cc1c.2" configVersion="707201e7bcedad107fa84628cbb57d2d8c411a0d"/>
+		<Metadata name="Catalog.скт_Методы.Command.Отладить.CommandModule" id="1a1ac7d5-a8fe-4531-9f87-6569caa0cc1c.2" configVersion="df9e2ae06523d656a3d79322084cb063987a2cb7"/>
 		<Metadata name="Catalog.скт_Методы.Form.ФормаВызоваМетода" id="599da773-f7e2-42f2-97b9-c68c0934bfb6" configVersion="5d755a50218ba8545dbb7ec26576ffd343c986f6"/>
 		<Metadata name="Catalog.скт_Методы.Form.ФормаВызоваМетода.Form" id="599da773-f7e2-42f2-97b9-c68c0934bfb6.0" configVersion="8ae285aeb3e3e8f3523bfcf054ccb8f8ec19f4f6"/>
 		<Metadata name="Catalog.скт_Методы.Form.ФормаЭлемента" id="bfe1ade7-5ae7-4362-be8e-685ea385a650" configVersion="61c5590c2f66387eb4b207ff4d66529b8ed02a76"/>
 		<Metadata name="Catalog.скт_Методы.Form.ФормаЭлемента.Form" id="bfe1ade7-5ae7-4362-be8e-685ea385a650.0" configVersion="24b1895a44d8f0f5df645465414983b9ad67ece1"/>
-		<Metadata name="Catalog.скт_Методы.ManagerModule" id="65cc3c3f-52a5-4281-8f5f-4c445437bc83.3" configVersion="cd64cf44955f7292918b7ec61d1ce00c7bdca8e2"/>
-		<Metadata name="Catalog.скт_Методы.ObjectModule" id="65cc3c3f-52a5-4281-8f5f-4c445437bc83.0" configVersion="3614e0db621a2c2209d5c333c3f8e181ea208c4d"/>
+		<Metadata name="Catalog.скт_Методы.ManagerModule" id="65cc3c3f-52a5-4281-8f5f-4c445437bc83.3" configVersion="639838d27a3e4142f5c06d46f913bbde924f19d2"/>
+		<Metadata name="Catalog.скт_Методы.ObjectModule" id="65cc3c3f-52a5-4281-8f5f-4c445437bc83.0" configVersion="12d6fbf5f1cc471f80a7333793c5057169102f4c"/>
 		<Metadata name="Catalog.скт_ПроизвольныеАлгоритмы" id="593ab038-5b29-4271-86c4-8dca25b3065b" configVersion="ebaacec91937bb51ab009b5659afef4cbef99696">
 			<Metadata name="Catalog.скт_ПроизвольныеАлгоритмы.Attribute.Вид" id="233ab447-9e66-4fe3-8e29-701766c74b4d"/>
 			<Metadata name="Catalog.скт_ПроизвольныеАлгоритмы.Attribute.ИмяВстроеннойОбработки" id="50666609-3faf-4730-b94f-4d9c5e6a2bcb"/>

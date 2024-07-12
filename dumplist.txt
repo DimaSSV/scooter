@@ -1,1 +1,3 @@
-﻿Modified: Catalog.скт_Источники.Form.СоставПользовательскихНастроек.Form
+﻿Modified: Catalog.скт_Методы.Command.Отладить.CommandModule
+Modified: Catalog.скт_Методы.ManagerModule
+Modified: Catalog.скт_Методы.ObjectModule
