@@ -1,3 +1,1 @@
-﻿Modified: Catalog.скт_Методы.Command.Отладить.CommandModule
-Modified: Catalog.скт_Методы.ManagerModule
-Modified: Catalog.скт_Методы.ObjectModule
+﻿Modified: Catalog.скт_Методы.ManagerModule
