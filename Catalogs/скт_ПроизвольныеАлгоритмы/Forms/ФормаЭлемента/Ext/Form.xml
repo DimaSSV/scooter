@@ -45,6 +45,16 @@
 			<ContextMenu name="ИмяВстроеннойОбработкиКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="ИмяВстроеннойОбработкиРасширеннаяПодсказка" id="12"/>
 		</InputField>
+		<InputField name="ПутьКФайлу" id="22">
+			<DataPath>Объект.ПутьКФайлу</DataPath>
+			<ChoiceButton>true</ChoiceButton>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПутьКФайлуКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ПутьКФайлуРасширеннаяПодсказка" id="24"/>
+			<Events>
+				<Event name="StartChoice">ПутьКФайлуНачалоВыбора</Event>
+			</Events>
+		</InputField>
 		<UsualGroup name="ГруппаВнешнийФайл" id="15">
 			<Title>
 				<v8:item>

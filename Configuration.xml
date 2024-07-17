@@ -67,16 +67,19 @@
 			<CommonPicture>скт_ДобавитьКомментарий</CommonPicture>
 			<CommonPicture>скт_Логотип</CommonPicture>
 			<Role>скт_ОсновнаяРоль</Role>
-			<CommonModule>скт_КомпоновкаДанныхСервер</CommonModule>
+			<CommonModule>скт_Документация</CommonModule>
 			<CommonModule>скт_КомпоновкаДанныхКлиентСервер</CommonModule>
+			<CommonModule>скт_КомпоновкаДанныхСервер</CommonModule>
+			<CommonModule>скт_ОбщегоНазначения</CommonModule>
 			<CommonModule>скт_ОбщегоНазначенияВызовСервера</CommonModule>
-			<CommonModule>скт_ОбщегоНазначенияКлиент</CommonModule>
-			<CommonModule>скт_ОбщегоНазначенияСервер</CommonModule>
 			<CommonModule>скт_ПроизвольныеАлгоритмыСервер</CommonModule>
-			<CommonModule>скт_ПроцедурыHTTP</CommonModule>
+			<CommonModule>скт_ОбщегоНазначенияКлиент</CommonModule>
 			<CommonModule>скт_ОбщегоНазначенияКлиентСервер</CommonModule>
 			<CommonModule>скт_ОбщегоНазначенияПовтИсп</CommonModule>
-			<CommonModule>скт_Документация</CommonModule>
+			<CommonModule>скт_ОбщегоНазначенияСервер</CommonModule>
+			<CommonModule>скт_ПроизвольныеАлгоритмы</CommonModule>
+			<CommonModule>скт_ПроцедурыHTTP</CommonModule>
+			<CommonModule>скт_Настройки</CommonModule>
 			<HTTPService>скт_Scooter</HTTPService>
 			<CommonForm>скт_ФормаВыбораНаСервере</CommonForm>
 			<Catalog>скт_ПроизвольныеАлгоритмы</Catalog>
