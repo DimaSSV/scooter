@@ -53,7 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.скт_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version>1.0.0.1</Version>
+			<Version>1.0.1</Version>
 			<BriefInformation/>
 			<DetailedInformation/>
 			<Copyright/>
@@ -63,6 +63,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>скт_Самокат</Subsystem>
+			<Subsystem>скт_СамокатИнтерфейс</Subsystem>
 			<CommonPicture>скт_УдалитьКомментарий</CommonPicture>
 			<CommonPicture>скт_ДобавитьКомментарий</CommonPicture>
 			<CommonPicture>скт_Логотип</CommonPicture>
@@ -80,8 +81,11 @@
 			<CommonModule>скт_ПроизвольныеАлгоритмы</CommonModule>
 			<CommonModule>скт_ПроцедурыHTTP</CommonModule>
 			<CommonModule>скт_Настройки</CommonModule>
+			<CommonModule>скт_ПоддержкаСервер</CommonModule>
 			<HTTPService>скт_Scooter</HTTPService>
+			<CommonCommand>скт_Главная</CommonCommand>
 			<CommonForm>скт_ФормаВыбораНаСервере</CommonForm>
+			<CommonForm>скт_Главная</CommonForm>
 			<Catalog>скт_ПроизвольныеАлгоритмы</Catalog>
 			<Catalog>скт_Источники</Catalog>
 			<Catalog>скт_Методы</Catalog>

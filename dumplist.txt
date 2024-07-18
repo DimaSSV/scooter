@@ -1,3 +1,0 @@
-﻿Modified: Catalog.скт_Методы.ManagerModule
-Modified: CommonModule.скт_ОбщегоНазначенияВызовСервера.Module
-Modified: DataProcessor.скт_Сериализация_ФикстивнаяСериализация.ObjectModule

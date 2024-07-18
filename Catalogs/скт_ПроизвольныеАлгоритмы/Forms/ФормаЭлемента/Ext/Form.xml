@@ -45,6 +45,16 @@
 			<ContextMenu name="ИмяВстроеннойОбработкиКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="ИмяВстроеннойОбработкиРасширеннаяПодсказка" id="12"/>
 		</InputField>
+		<CheckBoxField name="ПодключатьсяОтладчиком" id="25">
+			<DataPath>Объект.ПодключатьсяОтладчиком</DataPath>
+			<ToolTipRepresentation>Button</ToolTipRepresentation>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ПодключатьсяОтладчикомКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ПодключатьсяОтладчикомРасширеннаяПодсказка" id="27"/>
+			<Events>
+				<Event name="OnChange">ПодключатьсяОтладчикомПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
 		<InputField name="ПутьКФайлу" id="22">
 			<DataPath>Объект.ПутьКФайлу</DataPath>
 			<ChoiceButton>true</ChoiceButton>

@@ -36,7 +36,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Значения дополнительных настроек (СКТ)</v8:content>
+					<v8:content>Значения настроек (СКТ)</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -160,10 +160,25 @@
 			<FullTextSearch>DontUse</FullTextSearch>
 			<EnableTotalsSliceFirst>false</EnableTotalsSliceFirst>
 			<EnableTotalsSliceLast>false</EnableTotalsSliceLast>
-			<RecordPresentation/>
+			<RecordPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка (Самокат)</v8:content>
+				</v8:item>
+			</RecordPresentation>
 			<ExtendedRecordPresentation/>
-			<ListPresentation/>
-			<ExtendedListPresentation/>
+			<ListPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Значения настроек</v8:content>
+				</v8:item>
+			</ListPresentation>
+			<ExtendedListPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Значения настроек (Самокат)</v8:content>
+				</v8:item>
+			</ExtendedListPresentation>
 			<Explanation/>
 			<DataHistory>DontUse</DataHistory>
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>

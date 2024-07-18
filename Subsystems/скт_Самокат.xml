@@ -11,13 +11,10 @@
 			</Synonym>
 			<Comment/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
-			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
 			<UseOneCommand>false</UseOneCommand>
 			<Explanation/>
-			<Picture>
-				<xr:Ref>CommonPicture.скт_Логотип</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-			</Picture>
+			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.скт_Источники</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.скт_УдалитьКомментарий</xr:Item>

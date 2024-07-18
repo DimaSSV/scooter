@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="9">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="10"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаИнтерфейс" id="13">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа интерфейс</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа интерфейс</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаИнтерфейсРасширеннаяПодсказка" id="14"/>
+					<ChildItems>
+						<Button name="Методы" id="1">
+							<Type>Hyperlink</Type>
+							<CommandName>Catalog.скт_Методы.StandardCommand.OpenList</CommandName>
+							<ExtendedTooltip name="МетодыРасширеннаяПодсказка" id="2"/>
+						</Button>
+						<Button name="Источники" id="3">
+							<Type>Hyperlink</Type>
+							<CommandName>Catalog.скт_Источники.StandardCommand.OpenList</CommandName>
+							<ExtendedTooltip name="ИсточникиРасширеннаяПодсказка" id="4"/>
+						</Button>
+						<Button name="ПроизвольныеАлгоритмы" id="5">
+							<Type>Hyperlink</Type>
+							<CommandName>Catalog.скт_ПроизвольныеАлгоритмы.StandardCommand.OpenList</CommandName>
+							<ExtendedTooltip name="ПроизвольныеАлгоритмыРасширеннаяПодсказка" id="6"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаСлужебные" id="11">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа служебные</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа служебные</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаСлужебныеРасширеннаяПодсказка" id="12"/>
+					<ChildItems>
+						<Button name="Настройки" id="7">
+							<Type>Hyperlink</Type>
+							<CommandName>ChartOfCharacteristicTypes.скт_ДополнительныеНастройки.StandardCommand.OpenList</CommandName>
+							<ExtendedTooltip name="НастройкиРасширеннаяПодсказка" id="8"/>
+						</Button>
+						<Button name="КнопкаСтраницаРазработки" id="15">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.СтраницаРазработки</CommandName>
+							<Picture>
+								<xr:Ref>StdPicture.Change</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ExtendedTooltip name="КнопкаСтраницаРазработкиРасширеннаяПодсказка" id="16"/>
+						</Button>
+						<Button name="ПроверитьОбновление" id="17">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ПроверитьОбновление</CommandName>
+							<Picture>
+								<xr:Ref>StdPicture.RestoreValues</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ExtendedTooltip name="ПроверитьОбновлениеРасширеннаяПодсказка" id="18"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Версия" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Версия</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СтраницаРазработки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страница разработки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страница разработки (Самокат)</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СтраницаРазработки</Action>
+		</Command>
+		<Command name="ПроверитьОбновление" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить обновление</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить обновление (Самокат)</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроверитьОбновление</Action>
+		</Command>
+	</Commands>
+</Form>
