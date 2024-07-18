@@ -62,7 +62,6 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Subsystem>скт_Самокат</Subsystem>
 			<Subsystem>скт_СамокатИнтерфейс</Subsystem>
 			<CommonPicture>скт_УдалитьКомментарий</CommonPicture>
 			<CommonPicture>скт_ДобавитьКомментарий</CommonPicture>

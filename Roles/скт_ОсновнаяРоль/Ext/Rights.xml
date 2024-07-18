@@ -349,13 +349,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.скт_Самокат</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonForm.скт_ФормаВыбораНаСервере</name>
 		<right>
 			<name>View</name>
