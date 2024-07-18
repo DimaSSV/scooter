@@ -68,7 +68,7 @@
 		<Metadata name="CommonCommand.скт_Главная" id="71aaca8f-557d-448e-8785-eefa84ae4d0c" configVersion="f8787bcd6168457f50c22a700e40b09b120d25b6"/>
 		<Metadata name="CommonCommand.скт_Главная.CommandModule" id="71aaca8f-557d-448e-8785-eefa84ae4d0c.2" configVersion="549a4f15a44406ae0c0a641f5deb1e11a427484e"/>
 		<Metadata name="CommonForm.скт_Главная" id="36eec3d5-0fca-4fb9-9f6c-77bf6d746713" configVersion="9a3b5ea252a27518ce89a01d3a369347ce21e5d1"/>
-		<Metadata name="CommonForm.скт_Главная.Form" id="36eec3d5-0fca-4fb9-9f6c-77bf6d746713.0" configVersion="aab13f98d564bd9a34bb85ded3a5276d8eebedde"/>
+		<Metadata name="CommonForm.скт_Главная.Form" id="36eec3d5-0fca-4fb9-9f6c-77bf6d746713.0" configVersion="33c80c41ee0c702a5aec2c2d6d7166f1739d446f"/>
 		<Metadata name="CommonForm.скт_ФормаВыбораНаСервере" id="76e7fac8-de9e-477c-b978-25e93352e8f0" configVersion="5070cfc9c0d167a6a3273ddd33ac52b1b4ddbe2d"/>
 		<Metadata name="CommonForm.скт_ФормаВыбораНаСервере.Form" id="76e7fac8-de9e-477c-b978-25e93352e8f0.0" configVersion="8258f8b0c700bf5d74d9386bd06baa0394e1586b"/>
 		<Metadata name="CommonModule.скт_Документация" id="020be688-2c1c-4105-bbdd-054a63498912" configVersion="2abe478a0a3d100611a5b78e80f7c34eb1a79b59"/>
