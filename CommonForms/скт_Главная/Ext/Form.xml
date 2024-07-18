@@ -32,8 +32,13 @@
 						<Button name="Методы" id="1">
 							<Type>Hyperlink</Type>
 							<CommandName>Catalog.скт_Методы.StandardCommand.OpenList</CommandName>
+							<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 							<ExtendedTooltip name="МетодыРасширеннаяПодсказка" id="2"/>
 						</Button>
+						<LabelDecoration name="Декорация1" id="19">
+							<ContextMenu name="Декорация1КонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="21"/>
+						</LabelDecoration>
 						<Button name="Источники" id="3">
 							<Type>Hyperlink</Type>
 							<CommandName>Catalog.скт_Источники.StandardCommand.OpenList</CommandName>
